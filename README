@@ -1,0 +1,12 @@
+Comunicación entre componentes
+vista --> controlador --> modelo --> BDD
+
+
+vistas parciales: Se mantienen durante la navegación
+vistas dinamicas: Cambian su contenido durante la navegación
+
+entry points: punto centralizado, el index.php el primer archivo que lee el servidor.
+Este se conecta con todos los archivos, creando un sistema de rutas.
+La ruta es un elemento fijo, por los cual se trabaja con consantes
+
+Una página web se vuelve dinámica cuando esta conectada a una base de datos

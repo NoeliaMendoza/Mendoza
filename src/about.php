@@ -1,4 +1,4 @@
-
-<h1>Sobre mi</h1>
-    
-    
+<?php
+    $title = "Sobre mi";
+    require __DIR__ . '/resources/about.template.php';
+?>
